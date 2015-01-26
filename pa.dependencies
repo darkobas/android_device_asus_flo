@@ -1,9 +1,9 @@
 [
  {
    "remote":     "github",
-   "repository": "CyanogenMod/android_kernel_google_msm",
+   "repository": "darkobas/android_kernel_google_msm",
    "target_path": "kernel/google/msm",
-   "revision":    "cm-12.0"
+   "revision":    "L"
  },
  {
    "remote":     "github",

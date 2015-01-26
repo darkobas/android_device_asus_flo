@@ -28,6 +28,12 @@ PRODUCT_MODEL := AOSP on Flo
 PRODUCT_MANUFACTURER := ASUS
 PRODUCT_RESTRICT_VENDOR_FILES := true
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+PRODUCT_NAME=razor \
+BUILD_FINGERPRINT="google/razor/flo:5.0.2/LRX22G/1649326:user/release-keys" \
+PRIVATE_BUILD_DESC="razor-user 5.0.2 LRX22G 1649326  release-keys"
+
+
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/asus/flo/device.mk)
 $(call inherit-product-if-exists, vendor/asus/flo/device-vendor.mk)
